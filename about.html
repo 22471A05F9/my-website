@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Mahesh - Web Designer</title>
 
   <style>
-    
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
+      scrollbar-width: none;
     }
 
     body {
       font-family: 'Arial', sans-serif;
-      background-image: linear-gradient(lightblue);
+      background-image: linear-gradient(to right, #dff6ff, #cfe9f5);
       color: #333;
     }
 
-    
     nav {
       background-color: #2c3e50;
       padding: 15px 30px;
@@ -40,7 +39,6 @@
       text-decoration: underline;
     }
 
-    
     .hero-section {
       display: flex;
       flex-direction: column;
@@ -48,6 +46,7 @@
       justify-content: center;
       text-align: center;
       padding: 80px 20px;
+      min-height: 80vh;
     }
 
     .info h3 {
@@ -74,17 +73,17 @@
       line-height: 1.6;
       color: #666;
       max-width: 600px;
+      margin-bottom: 30px;
     }
 
-    
     .info .btn {
-      margin-top: 30px;
-      padding: 12px 30px;
+      display: inline-block;
+      padding: 12px 35px;
       font-size: 18px;
       color: white;
       background-color: #3498db;
       border: none;
-      border-radius: 5px;
+      border-radius: 7px;
       cursor: pointer;
       transition: background-color 0.3s ease;
       text-decoration: none;
@@ -95,9 +94,7 @@
     }
   </style>
 </head>
-
 <body>
-
 
   <nav>
     <a href="index.html">Home</a>
@@ -107,7 +104,6 @@
     <a href="project.html">Projects</a>
   </nav>
 
-  
   <div class="hero-section">
     <div class="info">
       <h3>Hello, I'm <span>Mahesh</span></h3>
